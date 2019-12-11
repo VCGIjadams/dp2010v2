@@ -1,0 +1,11 @@
+.dataTable tbody tr {
+  background-color: rgba(0,0,0,0) !important;
+}
+
+.dataTable tbody tr:hover {
+  background-color: rgba(0,0,0,0.1) !important;
+}
+
+.tab {
+  cursor: pointer;
+}
