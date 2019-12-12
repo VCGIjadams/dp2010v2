@@ -72,7 +72,7 @@ $('document').ready(function() {
 
   $('#VariablesTab').hide();
 
-  d3.csv('../data/dictionary.csv').then(function(rows) {
+  d3.csv('./data/dictionary.csv').then(function(rows) {
 
     var table2vars = {};
     var var2desc = {};
@@ -111,7 +111,7 @@ $('document').ready(function() {
 
 
     // Load data
-    d3.csv('../data/data.csv').then(function(rows) {
+    d3.csv('./data/data.csv').then(function(rows) {
 
       rows.map(function(row) {
         $('#towns').append('<option value="' + row.name_dp + '">' + row.name_dp + '</option>');
