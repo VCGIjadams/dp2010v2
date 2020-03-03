@@ -41,8 +41,8 @@ P15
 P16
 P18
 P19
-P20
 P22
+P23
 
 This data file is in a wide format. Each record is a geographic unit, and each 
 column is a variable containing information about that geographic unit. The 
@@ -147,15 +147,15 @@ Tables:
     Source code: P19
     NHGIS code:  H8D
  
-14. Households by Presence of People Under 18 Years by Household Type by Age of People Under 18 Years
-    Universe:    Households
-    Source code: P20
-    NHGIS code:  H8E
- 
-15. Household Type by Age of Householder
+14. Household Type by Age of Householder
     Universe:    Households
     Source code: P22
     NHGIS code:  H8G
+
+15. Households by Presence of People 60 Years and Over by Household Type
+    Universe:    Households
+    Source code: P23
+    NHGIS code:  H8H
  
 --------------------------------------------------------------------------------
 Data Dictionary
@@ -427,46 +427,7 @@ Breakdown:
         H8D018:      2-or-more-person household: Nonfamily households: Male householder
         H8D019:      2-or-more-person household: Nonfamily households: Female householder
  
-    Table 14:    Households by Presence of People Under 18 Years by Household Type by Age of People Under 18 Years
-    Universe:    Households
-    Source code: P20
-    NHGIS code:  H8E
-        H8E001:      Total
-        H8E002:      Households with one or more people under 18 years
-        H8E003:      Households with one or more people under 18 years: Family households
-        H8E004:      Households with one or more people under 18 years: Family households: Husband-wife family
-        H8E005:      Households with one or more people under 18 years: Family households: Husband-wife family: Under 6 years only
-        H8E006:      Households with one or more people under 18 years: Family households: Husband-wife family: Under 6 years and 6 to 17 years
-        H8E007:      Households with one or more people under 18 years: Family households: Husband-wife family: 6 to 17 years only
-        H8E008:      Households with one or more people under 18 years: Family households: Other family
-        H8E009:      Households with one or more people under 18 years: Family households: Other family: Male householder, no wife present
-        H8E010:      Households with one or more people under 18 years: Family households: Other family: Male householder, no wife present: Under 6 years only
-        H8E011:      Households with one or more people under 18 years: Family households: Other family: Male householder, no wife present: Under 6 years and 6 to 17 years
-        H8E012:      Households with one or more people under 18 years: Family households: Other family: Male householder, no wife present: 6 to 17 years only
-        H8E013:      Households with one or more people under 18 years: Family households: Other family: Female householder, no husband present
-        H8E014:      Households with one or more people under 18 years: Family households: Other family: Female householder, no husband present: Under 6 years only
-        H8E015:      Households with one or more people under 18 years: Family households: Other family: Female householder, no husband present: Under 6 years and 6 to 17 years
-        H8E016:      Households with one or more people under 18 years: Family households: Other family: Female householder, no husband present: 6 to 17 years only
-        H8E017:      Households with one or more people under 18 years: Nonfamily households
-        H8E018:      Households with one or more people under 18 years: Nonfamily households: Male householder
-        H8E019:      Households with one or more people under 18 years: Nonfamily households: Male householder: Under 6 years only
-        H8E020:      Households with one or more people under 18 years: Nonfamily households: Male householder: Under 6 years and 6 to 17 years
-        H8E021:      Households with one or more people under 18 years: Nonfamily households: Male householder: 6 to 17 years only
-        H8E022:      Households with one or more people under 18 years: Nonfamily households: Female householder
-        H8E023:      Households with one or more people under 18 years: Nonfamily households: Female householder: Under 6 years only
-        H8E024:      Households with one or more people under 18 years: Nonfamily households: Female householder: Under 6 years and 6 to 17 years
-        H8E025:      Households with one or more people under 18 years: Nonfamily households: Female householder: 6 to 17 years only
-        H8E026:      Households with no people under 18 years
-        H8E027:      Households with no people under 18 years: Family households
-        H8E028:      Households with no people under 18 years: Family households: Husband-wife family
-        H8E029:      Households with no people under 18 years: Family households: Other family
-        H8E030:      Households with no people under 18 years: Family households: Other family: Male householder, no wife present
-        H8E031:      Households with no people under 18 years: Family households: Other family: Female householder, no husband present
-        H8E032:      Households with no people under 18 years: Nonfamily households
-        H8E033:      Households with no people under 18 years: Nonfamily households: Male householder
-        H8E034:      Households with no people under 18 years: Nonfamily households: Female householder
- 
-    Table 15:    Household Type by Age of Householder
+    Table 14:    Household Type by Age of Householder
     Universe:    Households
     Source code: P22
     NHGIS code:  H8G
@@ -491,6 +452,27 @@ Breakdown:
         H8G019:      Nonfamily households: Householder 65 to 74 years
         H8G020:      Nonfamily households: Householder 75 to 84 years
         H8G021:      Nonfamily households: Householder 85 years and over
+
+    Table 15:    Households by Presence of People 60 Years and Over by Household Type
+    Universe:    Households
+    Source code: P23
+    NHGIS code:  H8H
+        H8H001:      Total
+        H8H002:      Households with one or more people 60 years and over
+        H8H003:      Households with one or more people 60 years and over: Family households
+        H8H004:      Households with one or more people 60 years and over: Family households: Husband-wife family
+        H8H005:      Households with one or more people 60 years and over: Family households: Other family
+        H8H006:      Households with one or more people 60 years and over: Family households: Other family: Male householder, no wife present
+        H8H007:      Households with one or more people 60 years and over: Family households: Other family: Female householder, no husband present
+        H8H008:      Households with one or more people 60 years and over: Nonfamily households
+        H8H009:      Households with no people 60 years and over
+        H8H010:      Households with no people 60 years and over: Family households
+        H8H011:      Households with no people 60 years and over: Family households: Husband-wife family
+        H8H012:      Households with no people 60 years and over: Family households: Other family
+        H8H013:      Households with no people 60 years and over: Family households: Other family: Male householder, no wife present
+        H8H014:      Households with no people 60 years and over: Family households: Other family: Female householder, no husband present
+        H8H015:      Households with no people 60 years and over: Nonfamily households        
+ 
  
 --------------------------------------------------------------------------------
 Citation and Use of NHGIS Data
