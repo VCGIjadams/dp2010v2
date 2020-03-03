@@ -89,13 +89,13 @@ $('document').ready(function() {
     for (i = 0; i < rows.length; i++) {
       var code = rows[i].Code;
       var desc = rows[i].Description;
-      
+
       if (code.length === 3) {
         $('#tables').append('<option value="' + code + '">' + desc + '</option>');
         $('#tables2').append('<option value="' + code + '">' + desc + '</option>');
       } else {
         var table = code.substr(0, 3);
-        
+
         if (!table2vars[table]) {
           table2vars[table] = [];
         }
@@ -132,7 +132,7 @@ $('document').ready(function() {
         var labels = [];
         var before = [];
         var after = [];
-      
+
         table2vars[table].map(function(v) {
           labels.push( var2desc[v] );
           before.push( rows.filter(function(r) { return r.name_dp === town })[0][v + '_sf'] )
@@ -161,7 +161,7 @@ $('document').ready(function() {
         function( settings, data, dataIndex ) {
           var range = $('input[name="townsize"]:checked')
             .attr('value').split('-').map(function(x) { return parseInt(x) });
-            
+
           if (range[1] === 1) return true;
 
           var pop = parseInt( data[1], 10 );
@@ -173,7 +173,7 @@ $('document').ready(function() {
           return false;
         }
       );
-      
+
       $('input[name="townsize"]').change(function() { datatable2.draw() });
 
       // Changes by variable
@@ -185,7 +185,7 @@ $('document').ready(function() {
         var after = [];
         var change = [];
         var pop = [];
-      
+
         rows.map(function(row) {
           var b = parseFloat(row[ variable + '_sf']);
           var a = parseFloat(row[ variable + '_dp']);
@@ -195,7 +195,7 @@ $('document').ready(function() {
           change.push( getChange( a, b ) );
           pop.push( parseInt(row['H7V001_sf']) );
         });
-        
+
         // Update data table
         datatable2.clear();
         for (var i = 0; i < towns.length; i++) {
@@ -208,7 +208,7 @@ $('document').ready(function() {
 
       // Initial load: Tables
       $('#tables').val('H7X');
-      $('#towns').val('Hartford').change();
+      $('#towns').val('Rutland').change();
 
       // Initial load: Variables
       $('#tables2').val('H7X').change();
