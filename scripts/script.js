@@ -121,7 +121,7 @@ $('document').ready(function() {
     d3.csv('./data/data.csv').then(function(rows) {
 
       rows.map(function(row) {
-        $('#towns').append('<option value="' + row.name_dp + '">' + row.name_dp + '</option>');
+        $('#towns').append('<option value="' + row.name + '">' + row.name + '</option>');
       });
 
       // Changes by table
@@ -135,8 +135,8 @@ $('document').ready(function() {
 
         table2vars[table].map(function(v) {
           labels.push( var2desc[v] );
-          before.push( rows.filter(function(r) { return r.name_dp === town })[0][v + '_sf'] )
-          after.push( rows.filter(function(r) { return r.name_dp === town })[0][v + '_dp'] )
+          before.push( rows.filter(function(r) { return r.name === town })[0][v + '_sf'] )
+          after.push( rows.filter(function(r) { return r.name === town })[0][v + '_dp'] )
         });
 
         // Update horizontal bar chart
@@ -189,7 +189,7 @@ $('document').ready(function() {
         rows.map(function(row) {
           var b = parseFloat(row[ variable + '_sf']);
           var a = parseFloat(row[ variable + '_dp']);
-          towns.push( row.name_dp );
+          towns.push( row.name );
           before.push( b );
           after.push( a );
           change.push( getChange( a, b ) );
