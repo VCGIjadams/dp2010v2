@@ -8,30 +8,6 @@ H71,Hispanic or Latino Origin by Race (Total Races Tallied)
 H76,Sex by Age
 H77,Median Age by Sex
 H78,Sex by Age for the Population Under 20 Years
-H79,Hispanic or Latino Origin of Householder by Race of Householder
-H8A,Population in Households by Age
-H8C,Household Type
-H8D,Household Size by Household Type by Presence of Own Children
-H8H,Households by Presence of People 60 Years and Over by Household Type
-H8G,Household Type by Age of Householder
-IFC,Housing Units
-IFE,Occupancy Status
-IFH,Race of Householder
-IFI,Hispanic or Latino Origin of Householder by Race of Householder
-IFL,Total Population in Occupied Housing Units
-IFO,Household Size
-IFC001,Total
-IFE001,Total
-IFE002,Occupied
-IFE003,Vacant
-IFH001,Total
-IFH002,Householder who is White alone
-IFH003,Householder who is Black or African American alone
-IFH004,Householder who is American Indian and Alaska Native alone
-IFH005,Householder who is Asian alone
-IFH006,Householder who is Native Hawaiian and Other Pacific Islander alone
-IFH007,Householder who is Some Other Race alone
-IFH008,Householder who is Two or More Races
 H7V001,Total
 H7X001,Total
 H7X002,White alone
@@ -281,29 +257,3 @@ H8G018,Nonfamily households: Householder 60 to 64 years
 H8G019,Nonfamily households: Householder 65 to 74 years
 H8G020,Nonfamily households: Householder 75 to 84 years
 H8G021,Nonfamily households: Householder 85 years and over
-IFI001,Total
-IFI002,Not Hispanic or Latino householder
-IFI003,Not Hispanic or Latino householder: Householder who is White alone
-IFI004,Not Hispanic or Latino householder: Householder who is Black or African American alone
-IFI005,Not Hispanic or Latino householder: Householder who is American Indian and Alaska Native alone
-IFI006,Not Hispanic or Latino householder: Householder who is Asian alone
-IFI007,Not Hispanic or Latino householder: Householder who is Native Hawaiian and Other Pacific Islander alone
-IFI008,Not Hispanic or Latino householder: Householder who is Some Other Race alone
-IFI009,Not Hispanic or Latino householder: Householder who is Two or More Races
-IFI010,Hispanic or Latino householder
-IFI011,Hispanic or Latino householder: Householder who is White alone
-IFI012,Hispanic or Latino householder: Householder who is Black or African American alone
-IFI013,Hispanic or Latino householder: Householder who is American Indian and Alaska Native alone
-IFI014,Hispanic or Latino householder: Householder who is Asian alone
-IFI015,Hispanic or Latino householder: Householder who is Native Hawaiian and Other Pacific Islander alone
-IFI016,Hispanic or Latino householder: Householder who is Some Other Race alone
-IFI017,Hispanic or Latino householder: Householder who is Two or More Races
-IFL001,Total
-IFO001,Total
-IFO002,1-person household
-IFO003,2-person household
-IFO004,3-person household
-IFO005,4-person household
-IFO006,5-person household
-IFO007,6-person household
-IFO008,7-or-more-person household

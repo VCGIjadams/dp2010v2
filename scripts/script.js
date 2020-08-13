@@ -207,12 +207,12 @@ $('document').ready(function() {
       });
 
       // Initial load: Tables
-      $('#tables').val('H7X');
-      $('#towns').val('Rutland').change();
+      $('#tables').val('H7V');
+      $('#towns').val('Addison-1 State House District').change();
 
       // Initial load: Variables
-      $('#tables2').val('H7X').change();
-      $('#variables').val('H7X003').change();
+      $('#tables2').val('H7V').change();
+      $('#variables').val('H7V001').change();
 
     })
 
