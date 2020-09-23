@@ -207,12 +207,12 @@ $('document').ready(function() {
       });
 
       // Initial load: Tables
-      $('#tables').val('H7V');
+      $('#tables').val('H7X');
       $('#towns').val('Addison-1 State House District').change();
 
       // Initial load: Variables
-      $('#tables2').val('H7V').change();
-      $('#variables').val('H7V001').change();
+      $('#tables2').val('H7X').change();
+      $('#variables').val('H7X001').change();
 
     })
 
